@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+#navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+#navbar a:hover
+{
+    color: blue;
+    text-decoration: underline
+}
+
+#logo {
+    margin: 5px;
+    color: black;
+    font-weight: bold;
+}
+#photoandlogo
+{
+    display: flex;
+    align-items: center;
+}
+#devis
+{
+    background-color: #FF6418;
+    color: white;
+    padding:20px;
+    border-radius: 8px;
+    border: none;
+}
+#devis:hover
+{
+    background-color: orange;
+    cursor: pointer; 
+}
+#express
+{
+    color: blue;
+}
+#photologo
+{
+    width: 40px;
+    height: 40px;
+}
+#hero
+{
+    height: 668px;
+    width: 100%;
+    background-color: #F3F7FA;
+    display: flex;
+}
+#votre
+{
+    color: #0866C2;
+    font-size: 13px;
+}
+#plombier
+{
+    color: #102A43;
+    font-size: 56px;
+}
+#chez
+{
+    color:#486176;
+    font-size: 17px;
+}
+#devis2
+{
+    color: white;
+    border-radius: 8px;
+    background-color: #FF6418;
+    padding: 24px;
+}
+#plumberpic
+{
+    height:464px;
+    width: 100%;
+    display: flex;
+}
