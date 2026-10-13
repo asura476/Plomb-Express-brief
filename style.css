@@ -2,7 +2,11 @@
 
 * {
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
+
 #navbar {
     display: flex;
     align-items: center;
@@ -17,8 +21,8 @@
     text-decoration: none;
     padding: 20px;
 }
-#navbar a:hover
-{
+
+#navbar a:hover {
     color: blue;
     text-decoration: underline
 }
@@ -28,65 +32,107 @@
     color: black;
     font-weight: bold;
 }
-#photoandlogo
-{
+
+#photoandlogo {
     display: flex;
     align-items: center;
 }
-#devis
-{
+
+#devis {
     background-color: #FF6418;
     color: white;
-    padding:20px;
+    padding: 20px;
     border-radius: 8px;
     border: none;
 }
-#devis:hover
-{
+
+#devis:hover {
     background-color: orange;
-    cursor: pointer; 
+    cursor: pointer;
 }
-#express
-{
+
+#express {
     color: blue;
 }
-#photologo
-{
+
+#photologo {
     width: 40px;
     height: 40px;
 }
-#hero
-{
+
+#hero {
     height: 668px;
     width: 100%;
     background-color: #F3F7FA;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+    min-height: 600px;
+    padding: 60px;
 }
-#votre
-{
+
+#herotop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#herotext {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+}
+
+#votre {
     color: #0866C2;
     font-size: 13px;
+    font-weight: bold;
 }
-#plombier
-{
+
+#plombier {
     color: #102A43;
     font-size: 56px;
+    font-weight: bold;
 }
-#chez
-{
-    color:#486176;
+
+#chez {
+    color: #486176;
     font-size: 17px;
 }
-#devis2
-{
+
+#devis2 {
     color: white;
     border-radius: 8px;
     background-color: #FF6418;
     padding: 24px;
+    text-decoration: none;
 }
-#plumberpic
-{
-    height:464px;
+
+#plumberpic {
+    height: auto;
     width: 100%;
+    object-fit: contain;
+}
+
+#herolinks {
     display: flex;
+    align-items: center;
+}
+
+#service {
+    text-decoration: none;
+    border: 1px;
+    border-color: #DCE5EC;
+    padding: 20px;
+    color: black;
+}
+
+#section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
 }
