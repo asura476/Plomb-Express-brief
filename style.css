@@ -10,6 +10,7 @@
 .navbar {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
     background-color: white;
     padding: 15px;
@@ -181,7 +182,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     padding: 80px;
-    width:100%;
+    width: 100%;
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -194,46 +195,95 @@
 
 .card img {
     height: 100%;
-    width:100%;
+    width: 100%;
     object-fit: cover;
     display: block;
 }
-.voir{
+
+.voir {
     text-decoration: none;
     color: #102A43;
     border: 1px solid #DCE5EC;
     padding: 20px;
     border-radius: 8px;
 }
-.prefooter{
+
+.prefooter {
+    background-color: #F3F7FA;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 50px;
     gap: 20px;
     margin: 10px;
 }
-.prefooter img{
+
+.prefooter img {
+
     height: 100%;
-    width:100%;
+    width: 100%;
     object-fit: cover;
     display: block;
     border-radius: 15px;
+    padding: 50px;
 }
-.unservice{
-    font-size:40px;
-    font-weight:bold;
-    color:#102A43;
-    padding:20px 0px 20px 0px;
+
+.unservice {
+    font-size: 40px;
+    font-weight: bold;
+    color: #102A43;
+    padding: 20px 0px 20px 0px;
 }
-.pourquoi{
-    font-size:14px;
-    font-weight:bold;
+
+.pourquoi {
+    font-size: 14px;
+    font-weight: bold;
     color: #0866C2;
 }
-.lowright{
-    padding-top:25px;
+
+.lowright {
+    padding-top: 25px;
     gap: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 
+}
+
+.right {
+    padding: 50px;
+}
+
+footer {
+    padding: 50px;
+    margin: 20px;
+    color: white;
+    background-color: #102A43;
+}
+
+.top_foter {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 10%;
+    grid-template-areas:
+        "fsection ssection tsection fosection"
+        "under under under under"
+    ;
+}
+
+footer h2 {
+    padding-bottom: 30px;
+}
+
+footer div {
+    padding-bottom: 10px;
+}
+
+
+.under {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.legal{
+    gap: 10px;
+    display:flex;
+    padding-left: 250px;
 }
